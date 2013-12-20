@@ -1,0 +1,47 @@
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\bin\Debug\大漠.exe.config
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\bin\Debug\大漠.exe
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\bin\Debug\大漠.pdb
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.Properties.Resources.resources
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.csproj.GenerateResource.Cache
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.exe
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.pdb
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\Interop.Dm.dll
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.csproj.ResolveComReference.cache
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\bin\Debug\大漠.exe.manifest
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\bin\Debug\大漠.application
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.exe.manifest
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.application
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.Form1.resources
+c:\users\liwenhai\documents\visual studio 2012\Projects\大漠\大漠\obj\Debug\大漠.csprojResolveAssemblyReference.cache
+D:\liwenhai\仙境传说前台WG\大漠\大漠\bin\Debug\大漠.exe.config
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.csproj.ResolveComReference.cache
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.exe
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.pdb
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.Form1.resources
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.Properties.Resources.resources
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.csproj.GenerateResource.Cache
+D:\liwenhai\仙境传说前台WG\大漠\大漠\bin\Debug\大漠.exe.manifest
+D:\liwenhai\仙境传说前台WG\大漠\大漠\bin\Debug\大漠.application
+D:\liwenhai\仙境传说前台WG\大漠\大漠\bin\Debug\大漠.exe
+D:\liwenhai\仙境传说前台WG\大漠\大漠\bin\Debug\大漠.pdb
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\Interop.Dm.dll
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.exe.manifest
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.application
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.csprojResolveAssemblyReference.cache
+D:\liwenhai\仙境传说前台WG\大漠\大漠\obj\Debug\大漠.SkillAndItem.resources
+D:\liwenhai\ROModify\大漠\大漠\bin\Debug\大漠.exe.config
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\Interop.Dm.dll
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.csproj.ResolveComReference.cache
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.exe
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.pdb
+D:\liwenhai\ROModify\大漠\大漠\bin\Debug\大漠.exe.manifest
+D:\liwenhai\ROModify\大漠\大漠\bin\Debug\大漠.application
+D:\liwenhai\ROModify\大漠\大漠\bin\Debug\大漠.exe
+D:\liwenhai\ROModify\大漠\大漠\bin\Debug\大漠.pdb
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.Form1.resources
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.Properties.Resources.resources
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.SkillAndItem.resources
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.csproj.GenerateResource.Cache
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.exe.manifest
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.application
+D:\liwenhai\ROModify\大漠\大漠\obj\Debug\大漠.csprojResolveAssemblyReference.cache
