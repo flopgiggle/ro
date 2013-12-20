@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dm;
 using System.Xml.Serialization;
+using System.Windows.Forms;
 
 namespace 大漠
 {
@@ -66,8 +67,9 @@ namespace 大漠
         int winRightDownX;
         int winRightDownY;
         dmsoft opTool;
-        ConfigInfo configInfo;
-
+        public ConfigInfo configInfo;
+        public RichTextBox mssageBox;
+        
         
         /// <summary>
         /// 构造函数
@@ -90,9 +92,9 @@ namespace 大漠
             object y2 = new object();
             opTool.GetWindowRect(hwnd, out x1, out y1, out x2, out y2);
             winLeftTopX = (int)x1;
-            int winLeftTopY = (int)y1;
-            int winRightDownX = (int)x2; 
-            int winRightDownY = (int)y2; 
+            winLeftTopY = (int)y1;
+            winRightDownX = (int)x2; 
+            winRightDownY = (int)y2; 
         }
 
         
@@ -153,11 +155,8 @@ namespace 大漠
         /// <param name="color"></param>
         /// <returns></returns>
         public bool findColor(int x,int y,string color) { 
-            object rx;
-            object ry;
-            opTool.FindColor(x, y, x, y,color, 1.0, 0, out rx, out ry);
-            if((int)rx>=0&&(int)ry>=0){
-                return true;        
+            if (opTool.GetColor(x, y) == color) {
+                return true; 
             }
             return false;
         }
@@ -167,7 +166,7 @@ namespace 大漠
         /// </summary>
         /// <returns></returns>
         public bool isHpLow() {
-            return findColor(winLeftTopX + 158 - 20, winLeftTopY + 59, "F7F7F7-000000");
+            return findColor(winLeftTopX + 158 - 20, winLeftTopY + 59, "f7f7f7");
         }
 
         /// <summary>
@@ -176,7 +175,7 @@ namespace 大漠
         /// <returns></returns>
         public bool isSpLow()
         {
-            return findColor(winLeftTopX + 65, winLeftTopY + 74, "F7F7F7-000000");
+            return findColor(winLeftTopX + 65, winLeftTopY + 74, "f7f7f7");
         }
 
         /// <summary>
@@ -277,7 +276,8 @@ namespace 大漠
         /// <summary>
         /// 挂机流程
         /// </summary>
-        public void processStep() { 
+        public void processStep() {
+            addLog("初始化数据", 0);
             //检查并使用辅助技能
             checkAndUesAssist(configInfo.assistItemAndSkillInfo);
             //Hp过低时开始补血
@@ -305,9 +305,8 @@ namespace 大漠
         /// <param name="msg">日志内容</param>
         /// <param name="logType">日志类型 0:普通 -1:调试</param>
         public void addLog(string msg,int logType) { 
-        
+            //messageInfoBox
+            mssageBox.Text += DateTime.Now.ToShortTimeString() + "_" + msg;
         }
-
-
     }
 }

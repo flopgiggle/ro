@@ -92,16 +92,34 @@ namespace 大漠
             config.hpUseSkill = isHpUseSkillCheckBox.Checked;
             config.isPickUpItem = isPickUpCheckBox.Checked;
             Serialize(config);
+
+            var files = Directory.GetFiles(System.Windows.Forms.Application.StartupPath+"\\Pic");
+            foreach (var item in files)
+            {
+                if (item.IndexOf("atk") >= 0)
+                {
+                    config.monsPic += item + "|";
+                    
+                }
+
+                if (item.IndexOf("pickup") >= 0)
+                {
+                    config.itemsPic += item + "|";
+                }
+            }
+            config.monsPic = config.monsPic.Substring(0, config.monsPic.Length - 1);
+            config.itemsPic = config.itemsPic.Substring(0, config.itemsPic.Length - 1);
             try
             {
                 BaseAction action = new BaseAction("仙境传说");
+                action.configInfo = config;
+                action.mssageBox = messageInfoBox;
+                action.processStep();
             }
             catch (Exception h)
             {
                 MessageBox.Show(h.Message);                
             }
-            
-            
         }
 
         public List<AssistItemAndSkillInfo> getAssInfo() {
